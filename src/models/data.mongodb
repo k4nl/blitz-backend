@@ -1,0 +1,14 @@
+
+use('Blitz');
+ // db.users.drop();
+db.tasks.drop();
+
+// Insert a few documents into the sales collection.
+/*
+db.users.insertMany([
+  {'user': { 'name': 'admin', 'email': 'admin@blitz.com', 'password': '123456' }},
+  {'user': { 'name': 'trybe', 'email': 'trybe@blitz.com', 'password': 'trybe123' }},
+]);
+*/
+db.createCollection('tasks');
+
